@@ -4,6 +4,10 @@ import requests
 import os
 
 app = Flask(__name__)
+@app.route('/')
+def home():
+    return "StoryWeave is Live! Use /generate to create a story."
+
 CORS(app)
 
 TOGETHER_AI_API_KEY = os.getenv("TOGETHER_AI_API_KEY")
