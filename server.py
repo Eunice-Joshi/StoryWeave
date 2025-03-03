@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 TOGETHER_AI_API_KEY = os.getenv("TOGETHER_AI_API_KEY")
-TOGETHER_AI_MODEL = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+TOGETHER_AI_MODEL = os.getenv("TOGETHER_AI_MODEL")
 
 @app.route('/generate', methods=['POST'])
 def generate_story():
