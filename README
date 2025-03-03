@@ -1,0 +1,19 @@
+# 📖 StoryWeave – AI-Powered Story Generator
+
+StoryWeave is an AI-based website that helps users generate creative stories based on their prompts. Built using Flask and Together AI, this project brings storytelling to life!
+
+🚀 Features
+- AI-powered story generation
+- Simple and interactive UI
+- Powered by Flask & JavaScript
+- Deployed for online access
+
+🛠 Tech Stack
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Flask (Python)  
+- **AI Model:** Together AI API  
+
+⚙️ Installation
+1️⃣ Clone the repository
+```sh
+git clone https://github.com/Eunice-Joshi/StoryWeave.git
