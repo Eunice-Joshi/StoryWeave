@@ -1,14 +1,10 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from flask import render_template
+
 import requests
 import os
 
 app = Flask(__name__)
-@app.route('/')
-def home():
-   return render_template('index.html')
-
 CORS(app)
 
 TOGETHER_AI_API_KEY = os.getenv("TOGETHER_AI_API_KEY")
