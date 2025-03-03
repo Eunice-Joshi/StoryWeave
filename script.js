@@ -1,5 +1,5 @@
 const apiKey = "tgp_v1_4NWwD3gCLsrp6r-xB4-3S5BCUu1ZYkpsOi0l445OJOQ"; 
-const apiUrl = "https://storyweave-985l.onrender.com";
+const apiUrl = "https://storyweave-985l.onrender.com/generate";
 
 document.getElementById("generateBtn").addEventListener("click", async function () {
     const genre = document.getElementById("genre").value;
